@@ -1,11 +1,20 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+
+
+import { logo } from './assets';
+import { Home, CreatePost } from './pages';
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <BrowserRouter>
+      <header className='w-full flex'>
+
+        
+      </header>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App  
